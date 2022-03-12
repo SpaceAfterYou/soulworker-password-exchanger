@@ -1,0 +1,37 @@
+{
+  "name": "soulworker-password-exchanger",
+  "version": "1.0.0",
+  "description": "",
+  "private": false,
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "reseter.css": "^2.0.0",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.179",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vue-tsc": "^0.29.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpaceAfterYou/soulworker-password-exchanger.git"
+  },
+  "keywords": [
+    "soulworker"
+  ],
+  "author": "sawich",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/SpaceAfterYou/soulworker-password-exchanger/issues"
+  },
+  "homepage": "https://github.com/SpaceAfterYou/soulworker-password-exchanger#readme"
+}
